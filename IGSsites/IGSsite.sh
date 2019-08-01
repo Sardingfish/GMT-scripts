@@ -1,5 +1,5 @@
 #!/bin/bash
-# Purpose:Plot IGS sites in World
+# Purpose:Plot IGS sites in Global
 # Author :  Ding Junsheng
 # Date   :  2019-08-01
 
