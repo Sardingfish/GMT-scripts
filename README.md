@@ -14,5 +14,5 @@
 
 - NGL GNSS Site Distribution
 
-  ![](https://github.com/Sardingfish/GMT-scripts/tree/master/NGLsites.png)
+  ![](https://github.com/Sardingfish/GMT-scripts/blob/master/NGLsites/NGLsites.png)
 
