@@ -6,15 +6,13 @@
 
 - Ground Tracks of BDS Satellites
 
-  <img src=“https://github.com/Sardingfish/GMT-scripts/blob/master/SatTracks/SatTracks.png” style=“width:200px height:300px” />
-
-  [](https://github.com/Sardingfish/GMT-scripts/blob/master/SatTracks/SatTracks.png)
+  ![](https://github.com/Sardingfish/GMT-scripts/blob/master/SatTracks/SatTracks.png)
 
 - IGS Network Site Distribution
 
-  [](https://github.com/Sardingfish/GMT-scripts/blob/master/IGSsites/IGSsites.png)
+  ![](https://github.com/Sardingfish/GMT-scripts/blob/master/IGSsites/IGSsites.png)
 
 - NGL GNSS Site Distribution
 
-  [](https://github.com/Sardingfish/GMT-scripts/tree/master/NGLsites)
+  ![](https://github.com/Sardingfish/GMT-scripts/tree/master/NGLsites)
 
