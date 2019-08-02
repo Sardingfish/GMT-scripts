@@ -1,5 +1,5 @@
 #!/bin/bash
-# Purpose:Plot NGL sites in Global
+# Purpose:Plot Ground Tracks of BDS Satellites
 # Author :  Ding Junsheng
 # Date   :  2019-08-01
 
