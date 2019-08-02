@@ -16,3 +16,7 @@
 
   ![](https://github.com/Sardingfish/GMT-scripts/blob/master/NGLsites/NGLsites.png)
 
+- Double Y axis
+
+  ![](https://github.com/Sardingfish/GMT-scripts/blob/master/DoubleYaxis/DoubleYaxis.png)
+
