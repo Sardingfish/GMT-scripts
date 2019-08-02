@@ -1,0 +1,22 @@
+#!/bin/bash
+# Purpose:Plot NGL sites in Global
+# Author :  Ding Junsheng
+# Date   :  2019-08-02
+
+datafile=albh_resi.neu
+gmt begin DoubleYaxis png
+gmt basemap -R2001.5/2007.5/-25/25 -JX8i/2i -Bya10f2+l"U(m)" -BEN
+awk '{print $1,$7}' $datafile | gmt plot -W0.5p,green
+gmt basemap -R2001.5/2007.5/-10/10 -JX8i/2i -Bxa1f1+l"time(year)" -Bya5f1g5+l"N/E(m)" -BWS
+awk '{print $1,$2}' $datafile | gmt psxy -W0.5p,red
+awk '{print $1,$3}' $datafile | gmt plot -W0.5p,blue
+
+# legend
+gmt legend -DjTR+w4c/1c+o0.05c/0.05c << EOF
+N 3
+S 0.1i r 0.1i green 0.25p 0.2i U
+S 0.1i r 0.1i red 0.25p 0.2i N
+S 0.1i r 0.1i blue 0.25p 0.2i E
+EOF
+
+gmt end
