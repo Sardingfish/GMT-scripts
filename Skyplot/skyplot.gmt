@@ -1,0 +1,35 @@
+#!/bin/bash
+# Purpose:Skyplot Ground Tracks of BDS Satellites
+# Author :  Ding Junsheng
+# Date   :  2019-08-03
+
+gmtset FORMAT_GEO_MAP = ddd:mmF
+sitefile=MEOtracks.dat
+
+gmt begin skyplot png
+gmt subplot begin 1x2 -Fs10c/10c -A'(a)'+JTL+o0.2c/0.4c -M0.5c/0.2c
+
+gmt subplot set 1,1
+gmt coast -R-180/180/0/90 -JA0/90 -Gwhite -Slightgray -Wthinnest -Dc -Ba30f15
+awk '{print $3,$30,0.04}' $sitefile | gmt plot -Sc -Ggray
+awk '{print $4,$31,0.06}' $sitefile | gmt plot -Sc -Ggray
+awk '{print $11,$38,0.08}' $sitefile | gmt plot -Sc -Ggray
+awk '{print $12,$39,0.1}' $sitefile | gmt plot -Sc -Ggray
+awk '{print $19,$46,0.12}' $sitefile | gmt plot -Sc -Ggray
+awk '{print $20,$47,0.14}' $sitefile | gmt plot -Sc -Ggray
+awk '{print $22,$49,0.16}' $sitefile | gmt plot -Sc -Ggray
+awk '{print $23,$50,0.18}' $sitefile | gmt plot -Sc -Ggray
+
+gmt subplot set 1,2
+gmt coast -R-180/180/0/90 -JA0/90 -Gseashell -Sskyblue -Wthinnest -Dc -Ba30f15
+awk '{print $3,$30,0.1}' $sitefile | gmt plot -Sc -Gblue
+awk '{print $4,$31,0.1}' $sitefile | gmt plot -Sc -Gred
+awk '{print $11,$38,0.1}' $sitefile | gmt plot -Sc -Ggreen
+awk '{print $12,$39,0.1}' $sitefile | gmt plot -Sc -Gyellow
+awk '{print $19,$46,0.1}' $sitefile | gmt plot -Sc -Gpink
+awk '{print $20,$47,0.1}' $sitefile | gmt plot -Sc -Gpurple
+awk '{print $22,$49,0.1}' $sitefile | gmt plot -Sc -Gbrown
+awk '{print $23,$50,0.1}' $sitefile | gmt plot -Sc -Gtan
+
+gmt subplot end
+gmt end
