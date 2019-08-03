@@ -4,7 +4,7 @@
 
  Some Useful GMT scripts in GNSS
 
-- Ground Tracks of BDS Satellites
+- Ground Tracks of BDS Satellites(GEO & IGSO)
 
   ![](https://github.com/Sardingfish/GMT-scripts/blob/master/SatTracks/SatTracks.png)
 
