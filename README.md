@@ -6,7 +6,7 @@
 
 - Pcolor Maps
 
-  :arrow_down: [pcolor.sh](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/pcolor.sh) | [eveg.dat](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/eveg.dat) | [topo.png](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/topo.png)
+  :arrow_down: [pcolor.gmt](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/pcolor.gmt) | [eveg.dat](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/eveg.dat) | [topo.png](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/topo.png)​
 
   ![](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/topo.png)
 
