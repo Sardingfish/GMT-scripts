@@ -22,7 +22,7 @@ gmt makecpt -Crainbow -T0/5300/20 -Z > $cptfile
 # http://modules.gmt-china.org/grdimage.html?highlight=grdimage
 gmt grdimage $grdfile -R$R -J$J -C$cptfile -B30WSen -K -P -O >> $PSfile
 
-# add coast
+# add coase
 gmt pscoast -R$R -J$J -N1/0.25p -W1/0.25p -K -P -O >> $PSfile
 
 # colorbar
