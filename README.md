@@ -6,7 +6,7 @@
 
 - Pcolor Maps
 
-  :arrow_down: [pcolor.gmt](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/pcolor.gmt) | [eveg.dat](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/eveg.dat) | [topo.png](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/topo.png)
+  [:arrow_down:](https://github.com/Sardingfish/GMT-scripts/archive/1.0.zip) [pcolor.gmt](https://github.com/Sardingfish/GMT-scripts/releases/download/1.0/pcolor.gmt) | [eveg.dat](https://github.com/Sardingfish/GMT-scripts/releases/download/1.0/eveg.dat) | [topo.png](https://github.com/Sardingfish/GMT-scripts/releases/download/1.0/topo.png)
 
   modules : [surface](https://docs.generic-mapping-tools.org/dev/surface.html) & [psxy](https://docs.generic-mapping-tools.org/dev/psxy.html?highlight=psxy) & [makecpt](https://docs.generic-mapping-tools.org/dev/makecpt.html?highlight=makecpt) & [grdimage](https://docs.generic-mapping-tools.org/dev/grdimage_classic.html?highlight=grdimage) & [pscoast](https://docs.generic-mapping-tools.org/dev/pscoast.html?highlight=pscoast) & [psscale](https://docs.generic-mapping-tools.org/dev/psscale.html?highlight=psscale) & [psconvert](https://docs.generic-mapping-tools.org/dev/psconvert.html?highlight=psconvert)
 
