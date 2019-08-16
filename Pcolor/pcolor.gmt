@@ -6,7 +6,7 @@
 ######################################################################### 
 R=-179.9/179.9/-89.9/89.9 
 J=Q15c
-datafiles=eveg.prn 
+datafiles=eveg.dat
 grdfile=hv_re.grd 
 cptfile=hv_re.cpt 
 PSfile=topo.ps 

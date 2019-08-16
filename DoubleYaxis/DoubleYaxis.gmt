@@ -3,7 +3,7 @@
 # Author :  Ding Junsheng
 # Date   :  2019-08-02
 
-datafile=albh_resi.neu
+datafile=albh_resi.dat
 gmt begin DoubleYaxis png
 gmt basemap -R2001.5/2007.5/-25/25 -JX8i/2i -Bya10f2+l"U(m)" -BEN
 awk '{print $1,$7}' $datafile | gmt plot -W0.5p,green

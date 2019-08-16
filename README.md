@@ -6,6 +6,8 @@
 
 - Pcolor Maps
 
+  :arrow_down: [pcolor.sh](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/pcolor.sh) | ​
+
   ![](https://github.com/Sardingfish/GMT-scripts/blob/master/Pcolor/topo.png)
 
 - Ground Tracks of BDS Satellites(GEO & IGSO)
