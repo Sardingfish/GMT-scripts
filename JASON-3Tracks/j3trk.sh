@@ -1,0 +1,29 @@
+##########################################################################
+# File Name: j3trk.sh
+# Author: Ding Junsheng
+# mail: 760837268@qq.com
+# Created Time: Tue 27 Aug 2019 05:18:11 PM CST
+#########################################################################
+
+ps=global.ps
+J=G105/35/15c
+R=-180/180/-70/70
+datafile=Visu_TP_Tracks_HiRes_GE_V2.kml
+
+# ps head
+gmt psxy -J$J -R$R -T -K > $ps
+
+# Convert Google earth KML file to GMT table data
+gmt kml2gmt $datafile > TPTrack.txt
+
+# coast
+gmt pscoast -R$R -J$J -Ba60g30 -I2/0.25p,blue -N1/0.25p,- -W0.25p,white -G179/255/179 -S51/166/255 -K -O >> $ps
+
+# satellite tracks
+gmt psxy TPTrack.txt -R -J -W0.5p,lightred -K -O>> $ps
+
+# ps tail
+gmt psxy -R$R -J$J -T -O >> $ps
+
+# output jpg
+gmt psconvert $ps -Tj -E300 -A -P
