@@ -1,0 +1,17 @@
+#!/bin/bash
+# Purpose:Plot NET sites in Global
+# Author :  Ding Junsheng
+# Date   :  2019-09-23
+
+R=-10/30/35/65
+J=Q10/7i
+sitefile=sites.dat
+gmt begin NETsites png 
+gmt coast -R$R -J$J -Gseashell -Sskyblue -Wthinnest -Dl -Ba10f5 
+awk '{print $3,$2,0.2}' $sitefile | gmt plot -Sc0.25c -Gblack
+awk '{print $3,$2,0.2}' $sitefile | gmt plot -Sc0.4c -W0.05c
+awk '{print $3,$2,$1}' $sitefile | gmt text -F+f10p,1,black+jTL -D-0.45c/-0.3c
+echo 12.8913 57.7150 0.2 | gmt plot -Sc0.25c -Gblack
+echo 12.8917 57.7150 0.2 | gmt plot -Sc0.4c -W0.05c
+echo 12.8913 57.7150 SPT0 | gmt text -F+f10p,1,black+jTL -D0.35c/0.15c
+gmt end
