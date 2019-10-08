@@ -54,7 +54,7 @@
 
 - **JASON-3Tracks**
 
-  [:arrow_down:](https://github.com/Sardingfish/GMT-scripts/archive/1.4.zip) [j3trk.gmt](https://github.com/Sardingfish/GMT-scripts/blob/master/JASON-3Tracks/j3trk.gmt) | [tracks.kml](https://github.com/Sardingfish/GMT-scripts/blob/master/JASON-3Tracks/tracks.kml) | [global.jpg](https://github.com/Sardingfish/GMT-scripts/blob/master/JASON-3Tracks/global.jpg)
+  [:arrow_down:]() [j3trk.gmt](https://github.com/Sardingfish/GMT-scripts/blob/master/JASON-3Tracks/j3trk.gmt) | [tracks.kml](https://github.com/Sardingfish/GMT-scripts/blob/master/JASON-3Tracks/tracks.kml) | [global.jpg](https://github.com/Sardingfish/GMT-scripts/blob/master/JASON-3Tracks/global.jpg)
 
   modules：[kml2gmt](https://docs.generic-mapping-tools.org/dev/kml2gmt.html?highlight=kml2gmt)
 
@@ -62,6 +62,6 @@
 
 - **Regional station distribution(NETsites)**
 
-  [:arrow_down:](https://github.com/Sardingfish/GMT-scripts/archive/1.4.zip) [NETsites.gmt](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/NETsites.gmt) | [sites.dat](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/sites.dat) | [NETsites](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/NETsites.png)
+  [:arrow_down:]() [NETsites.gmt](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/NETsites.gmt) | [sites.dat](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/sites.dat) | [NETsites](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/NETsites.png)
 
 ![](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/NETsites.png)
