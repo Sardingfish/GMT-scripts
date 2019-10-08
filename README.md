@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/platform-Linux-orange.svg) ![](https://img.shields.io/badge/compiler-shell-yellow.svg) ![](https://img.shields.io/badge/author-Jason%20Ding-blue.svg) ![](https://img.shields.io/badge/license-MIT-ff69b4.svg)  ![](https://img.shields.io/badge/version-GMT6.0.0-pink.svg)
 
- Some Useful GMT scripts in GNSS
+ Some Useful GMT scripts in GNSS.(I want them all !:heart_eyes_cat::arrow_right:download)
 
 - Pcolor Maps
 
@@ -54,7 +54,7 @@
 
 - JASON-3Tracks
 
-  [:arrow_down:](https://github.com/Sardingfish/GMT-scripts/archive/1.4.zip) [j3trk.gmt](https://github.com/Sardingfish/GMT-scripts/releases/download/1.4/NGLsite.gmt) | [tracks.kml](https://github.com/Sardingfish/GMT-scripts/releases/download/1.4/NGLNetwork.dat) | [global.jpg](https://github.com/Sardingfish/GMT-scripts/releases/download/1.4/NGLsites.png)
+  [:arrow_down:](https://github.com/Sardingfish/GMT-scripts/archive/1.4.zip) [j3trk.gmt](https://github.com/Sardingfish/GMT-scripts/blob/master/JASON-3Tracks/j3trk.gmt) | [tracks.kml](https://github.com/Sardingfish/GMT-scripts/blob/master/JASON-3Tracks/tracks.kml) | [global.jpg](https://github.com/Sardingfish/GMT-scripts/blob/master/JASON-3Tracks/global.jpg)
 
   modules：[kml2gmt](https://docs.generic-mapping-tools.org/dev/kml2gmt.html?highlight=kml2gmt)
 
@@ -62,6 +62,6 @@
 
 - Regional station distribution(NETsites)
 
-  [:arrow_down:](https://github.com/Sardingfish/GMT-scripts/archive/1.4.zip) [NETsites.gmt](https://github.com/Sardingfish/GMT-scripts/releases/download/1.4/NGLsite.gmt) | [sites.dat](https://github.com/Sardingfish/GMT-scripts/releases/download/1.4/NGLNetwork.dat) | [sites.dat](https://github.com/Sardingfish/GMT-scripts/releases/download/1.4/NGLsites.png)
+  [:arrow_down:](https://github.com/Sardingfish/GMT-scripts/archive/1.4.zip) [NETsites.gmt](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/NETsites.gmt) | [sites.dat](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/sites.dat) | [NETsites](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/NETsites.png)
 
 ![](https://github.com/Sardingfish/GMT-scripts/blob/master/NETsites/NETsites.png)
