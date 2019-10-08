@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/platform-Linux-orange.svg) ![](https://img.shields.io/badge/compiler-shell-yellow.svg) ![](https://img.shields.io/badge/author-Jason%20Ding-blue.svg) ![](https://img.shields.io/badge/license-MIT-ff69b4.svg)  ![](https://img.shields.io/badge/version-GMT6.0.0-pink.svg)
 
- Some Useful GMT scripts in GNSS.(I want them all !:heart_eyes_cat::arrow_right:download)
+ Some Useful GMT scripts in GNSS. (I Want them ALL !!!​ :heart_eyes_cat::arrow_right:download)
 
 - Pcolor Maps
 
